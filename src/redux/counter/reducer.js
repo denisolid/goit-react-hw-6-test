@@ -12,7 +12,7 @@ export const counterReducer = createReducer(initialState, (builder) => {
     .addCase(increment, (state, action) => {
       state.counter += state.step;
     })
-    .addCase(increment, (state, action) => {
+    .addCase(decrement, (state, action) => {
       state.counter -= state.step;
     })
     .addCase(reset, (state, action) => {

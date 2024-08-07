@@ -20,4 +20,4 @@ export const decrement = createAction("decrement");
 export const reset = createAction("reset");
 export const changeStep = createAction("change_step");
 
-changeStep(123); // () -> payload inside scobes
+// () -> payload inside scobes
